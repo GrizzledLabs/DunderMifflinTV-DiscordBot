@@ -19,7 +19,7 @@ def seasonepisodepicker():
       episodename = 'Basketball'
     else:
       episodename = 'Hot Girl'
-    seasonepisode = ('Watch S{seasonpicker}:E{episodepicker} "{episodename}"'.format(seasonpicker, episodepicker, episodename))
+    seasonepisode = ('Watch S{0}:E{1} "{2}"'.format(seasonpicker, episodepicker, episodename))
     return seasonepisode
   elif seasonpicker == 2:
     episodepicker = random.randint(1,22)
@@ -67,7 +67,7 @@ def seasonepisodepicker():
       episodename = 'Conflict Resolution'
     else:
       episodename = 'Casino Night'
-    seasonepisode = ('Watch S{seasonpicker}:E{episodepicker} "{episodename}"'.format(seasonpicker, episodepicker, episodename))
+    seasonepisode = ('Watch S{0}:E{1} "{2}"'.format(seasonpicker, episodepicker, episodename))
     return seasonepisode
   elif seasonpicker == 3:
     episodepicker = random.randint(1,23)
@@ -117,7 +117,7 @@ def seasonepisodepicker():
       episodename = 'Beach Games'
     else:
       episodename = 'The Job'
-    seasonepisode = ('Watch S{seasonpicker}:E{episodepicker} "{episodename}"'.format(seasonpicker, episodepicker, episodename))
+    seasonepisode = ('Watch S{0}:E{1} "{2}"'.format(seasonpicker, episodepicker, episodename))
     return seasonepisode
   elif seasonpicker == 4:
     episodepicker = random.randint(1,14)
@@ -149,7 +149,7 @@ def seasonepisodepicker():
       episodename = 'Job Fair'
     else:
       episodename = 'Goodbye, Toby'
-    seasonepisode = ('Watch S{seasonpicker}:E{episodepicker} "{episodename}"'.format(seasonpicker, episodepicker, episodename))
+    seasonepisode = ('Watch S{0}:E{1} "{2}"'.format(seasonpicker, episodepicker, episodename))
     return seasonepisode
   elif seasonpicker == 5:
     episodepicker = random.randint(1,26)
@@ -205,7 +205,7 @@ def seasonepisodepicker():
       episodename = 'Cafe Disco'
     else:
       episodename = 'Company Picnic'
-    seasonepisode = ('Watch S{seasonpicker}:E{episodepicker} "{episodename}"'.format(seasonpicker, episodepicker, episodename))
+    seasonepisode = ('Watch S{0}:E{1} "{2}"'.format(seasonpicker, episodepicker, episodename))
     return seasonepisode
   elif seasonpicker == 6:
     episodepicker = random.randint(1,26)
@@ -261,7 +261,7 @@ def seasonepisodepicker():
       episodename = 'The Chump'
     else:
       episodename = 'Whistleblower'
-    seasonepisode = ('Watch S{seasonpicker}:E{episodepicker} "{episodename}"'.format(seasonpicker, episodepicker, episodename))
+    seasonepisode = ('Watch S{0}:E{1} "{2}"'.format(seasonpicker, episodepicker, episodename))
     return seasonepisode
   elif seasonpicker == 7:
     episodepicker = random.randint(1,24)
@@ -313,7 +313,7 @@ def seasonepisodepicker():
       episodename = 'Dwight K. Schrute, (Acting) Manager' 
     else:
       episodename = 'Search Committee'
-    seasonepisode = ('Watch S{seasonpicker}:E{episodepicker} "{episodename}"'.format(seasonpicker, episodepicker, episodename))
+    seasonepisode = ('Watch S{0}:E{1} "{2}"'.format(seasonpicker, episodepicker, episodename))
     return seasonepisode
   elif seasonpicker == 8:
     episodepicker = random.randint(1,24)
@@ -365,7 +365,7 @@ def seasonepisodepicker():
       episodename = 'Turf War'
     else:
       episodename = 'Free Family Portrait Studio'
-    seasonepisode = ('Watch S{seasonpicker}:E{episodepicker} "{episodename}"'.format(seasonpicker, episodepicker, episodename))
+    seasonepisode = ('Watch S{0}:E{1} "{2}"'.format(seasonpicker, episodepicker, episodename))
     return seasonepisode
   else:
     episodepicker = random.randint(1,23)
@@ -415,7 +415,7 @@ def seasonepisodepicker():
       episodename = 'A.A.R.M.'
     else:
       episodename = 'Finale'
-    seasonepisode = ('Watch S{seasonpicker}:E{episodepicker} "{episodename}"'.format(seasonpicker, episodepicker, episodename))
+    seasonepisode = ('Watch S{0}:E{1} "{2}"'.format(seasonpicker, episodepicker, episodename))
     return seasonepisode
 
 time.sleep(120)
